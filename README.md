@@ -4,7 +4,7 @@
 
 ### Try to break an AI agent — in your browser. Watch a guardrail hold, live.
 
-[![Live demo](https://img.shields.io/badge/▶_LIVE_DEMO-try_it_now-22D3EE?style=for-the-badge)](https://cdxdebian.github.io/ai-redteam-playground/)
+[![Live demo](https://img.shields.io/badge/▶_LIVE_DEMO-try_it_now-22D3EE?style=for-the-badge)](https://cdxdebian.github.io/AI-Redteam-Playground/)
 <br/>
 ![No backend](https://img.shields.io/badge/backend-none_·_runs_in_your_browser-0B1426?style=flat-square)
 ![MITRE ATLAS](https://img.shields.io/badge/mapped_to-MITRE_ATLAS-8B5CF6?style=flat-square)
