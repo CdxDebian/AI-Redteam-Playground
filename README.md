@@ -11,7 +11,7 @@
 ![OWASP LLM](https://img.shields.io/badge/OWASP-LLM_Top_10-000000?style=flat-square)
 ![Vanilla JS](https://img.shields.io/badge/dependencies-0-F59E0B?style=flat-square)
 
-**👉 [cdxdebian.github.io/ai-redteam-playground](https://cdxdebian.github.io/ai-redteam-playground/)**
+**👉 [cdxdebian.github.io/AI-Redteam-Playground](https://cdxdebian.github.io/AI-Redteam-Playground/)**
 
 </div>
 
@@ -86,7 +86,7 @@ cd ai-redteam-playground && python -m http.server 8000   # then open http://loca
 It's a **single `index.html`** — no build, no dependencies. Open the file directly and it works offline.
 
 ## Enable the live demo (GitHub Pages)
-Settings → Pages → Source: **Deploy from a branch** → `main` / `root` → Save. The URL becomes `https://cdxdebian.github.io/ai-redteam-playground/`.
+Settings → Pages → Source: **Deploy from a branch** → `main` / `root` → Save. The URL becomes `https://cdxdebian.github.io/AI-Redteam-Playground/`.
 
 ---
 
