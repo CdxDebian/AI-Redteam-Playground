@@ -27,7 +27,7 @@ Type an attack, pick a tool for the agent to call, and a **provenance-aware poli
 
 - **Load 9 real attack patterns** — ticket injection, markdown-image exfiltration, SSRF to cloud metadata, secret smuggling, hidden-unicode instructions, memory poisoning, and a paraphrased attack that *evades the detector entirely*.
 - **Write your own** untrusted input, choose any of 10 tools, and flip the context between trusted and untrusted to feel the difference provenance makes.
-- **Run the red-team** — fire all 9 attacks at a naive agent vs the gated one and watch attack success rate collapse from **~55% to 0%**, with **zero false blocks** on benign work.
+- **Run the red-team** — fire all 9 attacks at a naive agent vs the gated one and watch attack success rate collapse from **54% to 0%**, with **zero false blocks** on benign work.
 - **Test the output sanitiser** — paste a model reply with a tracking-pixel image and watch the zero-click exfil channel get stripped (OWASP LLM05).
 
 ## The one idea
@@ -80,13 +80,10 @@ Each verdict on the page tags the exact techniques and mitigations in play.
 ## Run it locally
 
 ```bash
-git clone https://github.com/CdxDebian/ai-redteam-playground
-cd ai-redteam-playground && python -m http.server 8000   # then open http://localhost:8000
+git clone https://github.com/CdxDebian/AI-Redteam-Playground
+cd AI-Redteam-Playground && python -m http.server 8000   # then open http://localhost:8000
 ```
 It's a **single `index.html`** — no build, no dependencies. Open the file directly and it works offline.
-
-## Enable the live demo (GitHub Pages)
-Settings → Pages → Source: **Deploy from a branch** → `main` / `root` → Save. The URL becomes `https://cdxdebian.github.io/AI-Redteam-Playground/`.
 
 ---
 
